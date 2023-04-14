@@ -5,3 +5,6 @@
  
 ## 1.线性回归
 调用sklearn库中的LinearRegression与Ridge类，使用线性回归和岭回归的模型。对于boston housing数据集中的数据进行回归分析。
+
+## 2.逻辑回归
+调用LogisticRegression类进行单分类和多分类。注意逻辑回归是一个分类方法。
