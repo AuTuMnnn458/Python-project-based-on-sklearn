@@ -8,3 +8,6 @@
 
 ## 2.逻辑回归
 调用LogisticRegression类进行单分类和多分类。注意逻辑回归是一个分类方法。
+
+## 3.决策树
+用sklearn.tree中的DecisionTreeClassifier和DecisionTreeRegressor进行分类和回归。分类使用Iris数据集，回归使用Boston housing数据集。分类决策树中，输出结果是叶子节点的众数；而回归决策树中，改用叶子节点的平均数作为结果。可视化使用sklearn的tree中tree.plot_tree(比graphviz要方便).
