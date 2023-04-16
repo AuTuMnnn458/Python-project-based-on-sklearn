@@ -11,3 +11,7 @@
 
 ## 3.决策树
 用sklearn.tree中的DecisionTreeClassifier和DecisionTreeRegressor进行分类和回归。分类使用Iris数据集，回归使用Boston housing数据集。分类决策树中，输出结果是叶子节点的众数；而回归决策树中，改用叶子节点的平均数作为结果。可视化使用sklearn的tree中tree.plot_tree(比graphviz要方便).
+
+## 4.集成算法
+### 4.1 Bagging-随机森林Random Forest
+用sklearn.ensemble库中的RandomForestClassifier和RandomForestRegressor进行分类和回归。分类用Iris数据集，回归使用Boston housing数据集。跟决策树模型很接近，本质上多加了一个bootstrap过程，取不同的特征和值，多用几棵树，就成了随机森林了。提到bagging就是RF了，别的模型也不好bag。
