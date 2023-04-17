@@ -15,3 +15,11 @@
 ## 4.集成算法
 ### 4.1 Bagging-随机森林Random Forest
 用sklearn.ensemble库中的RandomForestClassifier和RandomForestRegressor进行分类和回归。分类用Iris数据集，回归使用Boston housing数据集。跟决策树模型很接近，本质上多加了一个bootstrap过程，取不同的特征和值，多用几棵树，就成了随机森林了。提到bagging就是RF了，别的模型也不好bag。
+
+### 4.2 Boosting-AdaBoost,GBDT和XGBoost
+* AdaBoost是基于决策树的提升算法。在弱分类器上训练，通过反复调整错误分类样例的权重，多个弱分类器组合起来成为一个强分类器。
+* GBDT
+* XGBoost
+
+### 4.3 Stacking堆叠
+将一些不同类型的模型的分类/回归结果，以给定的方法(如逻辑回归等)进行组合。可解释性非常差，但可以用。
